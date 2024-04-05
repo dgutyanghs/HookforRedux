@@ -2,7 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import { Counter } from './features/counter/Counter';
 import './App.css';
-import Usersxx from './features/users/Users';
+import Users from './features/users/Users';
 
 function App() {
   return (
@@ -11,7 +11,8 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <Counter />
         <hr/>
-        <Usersxx />
+        <Users />
+        <hr/>
       </header>
     </div>
   );

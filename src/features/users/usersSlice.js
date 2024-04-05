@@ -7,15 +7,6 @@ const initialState = {
 export const usersSlice = createSlice({
     name: 'usersSlice',
     initialState,
-
-//   reducers: {
-//     increment2: (state) => {
-//       state.value += 1;
-//     },
-//     decrement2: (state) => {
-//       state.value -= 1;
-//     },
-//   }
     reducers: {
         increment:(state) => {state.value += 1},
         decrement:(state) => {state.value -= 1},
